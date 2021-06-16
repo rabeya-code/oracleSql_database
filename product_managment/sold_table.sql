@@ -1,0 +1,12 @@
+drop table SOLD ;
+
+
+create table SOLD(
+    SPRODUCT_ID NUMBER(10),
+    SPRODUCT_NAME VARCHAR(20),
+    SOLDPRICE NUMBER(30),
+    SQUANTITY NUMBER (30),
+    SDATE DATE (10)
+);
+
+DESC SOLD;
