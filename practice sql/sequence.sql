@@ -18,4 +18,6 @@ SELECT st_students_id.CURRVAL
 FROM DUAL ;
 
 INSERT INTO STVU01 
-VALUES (st_students_id.)
+VALUES (st_students_id.NEXTVAL,'RAKIB');
+
+SELECT * FROM STVU01;
